@@ -1,0 +1,11 @@
+Retrieval Augmented Generation (RAG) enhances LLMs with external knowledge.
+Retrieval Augmented Generation (RAG) enhances LLMs with external knowledge.
+RAG retrieves relevant documents and uses them as context for generation.
+BM25 is a sparse retrieval algorithm based on term frequency statistics.
+Vector search uses neural embeddings to find semantically similar documents.
+Hybrid search combines BM25 and vector search using Reciprocal Rank Fusion.
+RRF score equals one divided by the sum of rank position and constant k=60.
+Query rewriting transforms vague queries into precise sub-queries.
+HyDE generates a hypothetical answer and uses it as the retrieval query.
+Faithfulness measures whether answers are grounded in retrieved context.
+The reranker uses a cross-encoder to rescore retrieved documents precisely.
